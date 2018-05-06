@@ -1,0 +1,136 @@
+
+body{
+	background-color: #eee;
+	color: grey;
+	height: 60em;
+	width: 100%;
+}
+
+li{
+	background-color: white;
+	list-style: none;
+}
+
+body{
+    margin-bottom: 5em;
+}
+
+.collection{
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-top: 2em;
+}
+
+.collection-item{
+	min-width: 60em;
+    max-width: 80em;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
+    margin-bottom: 5em;
+}
+
+.fileimage{
+	height: 15em;
+	width: 15em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.item-verify{
+    background-color: #ED5454;
+}
+
+.fileimage2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.pdf{
+    text-align: center;
+}
+
+h1{
+	color: grey;
+	padding-top: 5px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%
+    min-width 40em;
+    max-width: 60em;
+}
+
+h6{
+	color: grey;
+	padding-top: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.buttons{
+	float: right;
+	position: relative;
+   	bottom: .5em;
+}
+
+.button{
+	height: 3em;
+	width: 5em;	
+	background-color: rgba(0,0,0,0.78);
+	color: #eee;
+}
+
+
+
+.description{
+	color: grey;
+	text-align: center;
+	font-size: 15px;
+}
+
+.editthis{
+    border-top: 3px solid #; 
+    padding-top: 1em;
+    margin-left: 1em;
+
+}
+
+.info{
+    border: 3px solid #; 
+    position: relative;
+    margin-left: 1em;
+    font-size: 12px;
+}
+
+form{
+	 border: 3px solid #; 
+	 padding-bottom: 2em;
+	 color: grey;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 4em;
+    min-height: 4em;
+}
+
+
+.bottom{
+    height: 5em;
+}

@@ -1,0 +1,67 @@
+
+/*       background-color: #414141;
+   */
+
+.flex{
+ background-color: #414141;
+}
+
+
+/*  entire list */
+
+
+
+.entire-item{
+    background-color: black;
+    color: green;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+}
+
+
+.list-item{
+    margin-top: 10; 
+    margin-bottom: 7;   
+    padding: 20;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    background-color: #414141;
+
+}
+
+
+
+/* Item components -title, time, datatype */
+
+.title{
+    color: white;
+    font-size: 20;
+    padding-top: 10;
+}
+
+.timeposted{
+    color: white;
+    font-size: 10;
+    text-align: left;
+    padding-top: 10;
+}
+
+.item-image{
+    margin-top: 5;
+}
+
+
+.btn{
+    background-color: #414141;
+    color: rgb(182, 253, 1);
+}
+
+
+
+
+
+
+

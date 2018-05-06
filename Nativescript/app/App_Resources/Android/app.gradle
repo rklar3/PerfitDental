@@ -1,0 +1,30 @@
+// Add your native dependencies here:
+
+// Uncomment to add recyclerview-v7 dependency
+//dependencies {
+//	compile 'com.android.support:recyclerview-v7:+'
+//}
+
+android {  
+  defaultConfig {  
+    multiDexEnabled true
+    generatedDensities = []
+    applicationId = "org.nativescript.PerfitDental" 
+    
+    //override supported platforms
+    // ndk {
+    //       abiFilters.clear()
+    //   		abiFilters "armeabi-v7a"
+ 		// }
+  
+  }  
+  aaptOptions {  
+    additionalParameters "--no-version-vectors"  
+  }  
+} 
+dependencies {
+  compile 'com.android.support:multidex:1.0.0'
+}
+project.ext {
+    googlePlayServicesVersion = "12.0.1"
+}

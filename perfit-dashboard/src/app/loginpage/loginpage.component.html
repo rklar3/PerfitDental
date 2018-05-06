@@ -1,0 +1,46 @@
+ 
+<body>
+  <div class="outer-header">
+    <div class="title-header ">
+
+  <img class="img1  stnd default-logo dark-version" alt="Perfit Dental Solutions" src="http://blog.perfitdental.com/wp-content/uploads/2015/06/PerFit-Small.png.pagespeed.ce.rN4gmwpOqB.png" srcset="http://blog.perfitdental.com/wp-content/uploads/2015/06/PerFit-Small.png 1x, http://blog.perfitdental.com/wp-content/uploads/2015/06/PerFit-Large.png 2x" pagespeed_url_hash="3905334400" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" style="height: 66px;">
+
+    </div>
+  </div>
+  
+
+
+  <div class="cont">
+    <!-- Guest Link -->
+
+    <div class="guest">
+        <label class="title">Guest Login</label><br/>
+            <a href="guestpost" (click)="guestclick()" class="button3">Guest Login</a> 
+<!--        <input type="submit" class="button2" value="Guest Login"> -->
+
+      </div>
+
+    <!-- Login Form -->
+    <div class="center">
+        <label class="title2">Admin Dashboard</label><br/>
+      <form (submit)="loginUser($event)">
+        
+        <div class="input">
+          <label class="email">Email</label><br/>
+          <input type="text" placeholder="email"><br/><br/>
+        </div>
+        <div class="input">
+          <label>Password</label><br/>
+          <input type="password" placeholder="********"><br/><br/>
+        </div>
+        <div ng-if="errorMessage2" class="error">{{ errorMessage2 }}</div><br>
+        <div ng-if="errorMessage" class="error">{{ errorMessage }}</div><br>
+        <div class="input">
+          <input type="submit" class="button" value="login">
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+</body>
